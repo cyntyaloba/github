@@ -25,7 +25,7 @@ on:
         # Checks-out your repository unde $GITHUB_WORKSPACE, so your job can access it 
         - uses: actions/checkout@v3
 
-        # Runs a single command using the runners shell
+        # Runs a single command using the runner's shell
         - name: Step 1 check version Newman and Node
           run:
                 newman --version
